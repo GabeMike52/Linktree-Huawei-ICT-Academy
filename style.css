@@ -31,11 +31,15 @@ body {
     margin-bottom: 170px;
     animation-duration: 1.25s;
     animation-name: SlideImg;
+    -webkit-box-reflect: below 0px linear-gradient(transparent, rgba(0, 0, 0, .1));
 }
 
 .link-tree h1 {
     font-size: 2.5rem;
 }
+
+/* TODO: mudar a transição pra algo mais interessante
+         pensar em formas de implementar JS */
 
 .link-tree a {
     background-color: var(--accentcolor);
